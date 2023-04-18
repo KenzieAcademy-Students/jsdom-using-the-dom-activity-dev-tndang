@@ -13,6 +13,9 @@ Hint: https://www.w3schools.com/cssref/css3_pr_opacity.asp
 ________________________________________________________________*/
 
 // Your code here
+let boxTwo = document.getElementById("box-two");
+
+boxTwo.style.opacity = "1";
 
 /* _______________________________________________________________
 Part 2.) Reveal Box 9
@@ -32,6 +35,9 @@ Hint: https://www.w3schools.com/jsref/prop_style_display.asp
 ________________________________________________________________*/
 
 // Your code here
+let boxNine = document.documentElement.lastElementChild.firstElementChild.lastElementChild.lastElementChild.firstElementChild;
+
+boxNine.style.display = "block";
 
 /*________________________________________________________________
 Part 3.) Changing the color of the top message
@@ -51,6 +57,9 @@ Hint: https://www.w3schools.com/jsref/prop_style_color.asp
 ________________________________________________________________*/
 
 // Your code here
+let questionText = document.querySelector(".title__heading");
+
+questionText.style.color = "red";
 
 /*________________________________________________________________
 Part 4.) Fix the page title
@@ -65,6 +74,7 @@ Hint: https://www.w3schools.com/jsref/prop_doc_title.asp
 ________________________________________________________________*/
 
 // Your code here
+document.title = "The Kenzie Bunch";
 
 /*________________________________________________________________
 Part 5.) The Hidden Message
@@ -79,3 +89,7 @@ Hint: https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 ________________________________________________________________*/
 
 // Your code here
+let paragraghE1 = document.querySelector(".title__wrapper p");
+
+paragraghE1.innerHTML = "Who's the new neighbor?";
+paragraghE1.className = "hidden-message";
