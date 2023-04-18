@@ -13,6 +13,9 @@ Hint: https://www.w3schools.com/cssref/css3_pr_opacity.asp
 ________________________________________________________________*/
 
 // Your code here
+let boxTwo = document.getElementById("box-two");
+
+boxTwo.style.opacity = "1";
 
 /* _______________________________________________________________
 Part 2.) Reveal Box 9
