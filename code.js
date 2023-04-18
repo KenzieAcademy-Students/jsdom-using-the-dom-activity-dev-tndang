@@ -89,3 +89,7 @@ Hint: https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 ________________________________________________________________*/
 
 // Your code here
+let paragraghE1 = document.querySelector(".title__wrapper p");
+
+paragraghE1.innerHTML = "Who's the new neighbor?";
+paragraghE1.className = "hidden-message";
