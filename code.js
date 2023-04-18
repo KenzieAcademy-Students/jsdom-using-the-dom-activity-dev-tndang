@@ -57,9 +57,9 @@ Hint: https://www.w3schools.com/jsref/prop_style_color.asp
 ________________________________________________________________*/
 
 // Your code here
-let titleText = document.querySelector(".title__heading");
+let questionText = document.querySelector(".title__heading");
 
-titleText.style.color = "red";
+questionText.style.color = "red";
 
 /*________________________________________________________________
 Part 4.) Fix the page title
@@ -74,6 +74,7 @@ Hint: https://www.w3schools.com/jsref/prop_doc_title.asp
 ________________________________________________________________*/
 
 // Your code here
+document.title = "The Kenzie Bunch";
 
 /*________________________________________________________________
 Part 5.) The Hidden Message
