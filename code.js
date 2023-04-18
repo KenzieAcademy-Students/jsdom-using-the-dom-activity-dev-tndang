@@ -57,6 +57,9 @@ Hint: https://www.w3schools.com/jsref/prop_style_color.asp
 ________________________________________________________________*/
 
 // Your code here
+let titleText = document.querySelector(".title__heading");
+
+titleText.style.color = "red";
 
 /*________________________________________________________________
 Part 4.) Fix the page title
