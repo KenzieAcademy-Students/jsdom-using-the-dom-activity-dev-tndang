@@ -35,6 +35,9 @@ Hint: https://www.w3schools.com/jsref/prop_style_display.asp
 ________________________________________________________________*/
 
 // Your code here
+let boxNine = document.documentElement.lastElementChild.firstElementChild.lastElementChild.lastElementChild.firstElementChild;
+
+boxNine.style.display = "block";
 
 /*________________________________________________________________
 Part 3.) Changing the color of the top message
